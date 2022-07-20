@@ -212,6 +212,7 @@
             this.$confirm('确定删除该套餐, 是否继续?', '确定删除', {
               'confirmButtonText': '确定',
               'cancelButtonText': '取消',
+              'type': 'warning'
             }).then(() => {
               deleteSetmeal(type === '批量' ? this.checkList.join(',') : id).then(res => {
                 if (res.code === 1) {

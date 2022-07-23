@@ -58,4 +58,4 @@ mybatis-plus:
 
 reggie:
 #  path: E:\Java\project\case\case1\img\
-  path: /usr/local/app/img
+  path: /usr/local/app/img/

@@ -57,4 +57,5 @@ mybatis-plus:
       id-type: ASSIGN_ID
 
 reggie:
-  path: E:\Java\project\case\case1\img\
+#  path: E:\Java\project\case\case1\img\
+  path: /usr/local/app/img
